@@ -27,8 +27,10 @@
 //           children: [
 //             // Centered first row
 //             Center(
-//               child: Row(
-//                 mainAxisSize: MainAxisSize.min,
+//               child: Wrap(
+//                 // mainAxisSize: MainAxisSize.min,
+//                 runSpacing: 20,
+//                 spacing: 20,
 //                 children: List.generate(5, (index) {
 //                   final colors = [
 //                     Colors.red,
@@ -57,9 +59,9 @@
 //                 }),
 //               ),
 //             ),
-
+      
 //             const SizedBox(height: 32),
-
+      
             
 //             Center(
 //               child: Row(
@@ -71,9 +73,11 @@
 //                 ],
 //               ),
 //             ),
-
+      
+            
 //             const SizedBox(height: 32),
-
+      
+      
 //             Image.asset("assets/images/zorod.png", scale: 1,)
 //           ],
 //         ),
